@@ -13,7 +13,7 @@ import io
 import nltk
 import networkx as nx
 from nltk.tokenize import sent_tokenize
-from sklearn.feature_extraction.text import TfidfVectorizer
+from scikit-learn.feature_extraction.text import TfidfVectorizer
 from rouge import Rouge
 nltk.download('punkt')
 nltk.download('stopwords')
